@@ -1,3 +1,2 @@
-var rightNow= moment().format("'dddd','MMMM Do YYYY'");
-console.log(rightNow);
-  
+var rightNow = moment().format("dddd, MMMM Do YYYY");
+$('#currentDay').append(rightNow);
